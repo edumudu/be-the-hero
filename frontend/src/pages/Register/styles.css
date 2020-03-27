@@ -1,0 +1,29 @@
+.register-conteiner .content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 96px;
+  background-color: #f0f0f5;
+  box-shadow: 0 0 100px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.register-conteiner .content section {
+  width: 100%;
+  max-width: 380px;
+}
+
+.register-conteiner .content section h1 {
+  margin: 64px 0  32px;
+  font-size: 32px;
+}
+
+.register-conteiner .content section p {
+  font-size: 18px;
+  color: #737380;
+  line-height: 32px;
+}
+
+.register-conteiner .content form { max-width: 380px; }
+.register-conteiner .content form input{ margin-top: 8px; }
