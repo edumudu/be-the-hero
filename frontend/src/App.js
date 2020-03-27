@@ -1,11 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      Hello word
-    </div>
-  );
-}
+import './global.css';
+
+import Routes from './routes';
+
+const App = () => <Routes />;
 
 export default App;
